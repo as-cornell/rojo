@@ -8,8 +8,7 @@ deploy: |
   echo "Running hooks in the $DEVSHOP_ENVIRONMENT environment for the $DEVSHOP_PROJECT..."
   drush {{alias}} updb -y
   npm install --prefix web/themes/custom/ppd
-  npm audit fix
-  drush {{alias}} cc all
+  drush {{alias}} cr
   echo "Environment Variables:"
   env
 
