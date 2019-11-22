@@ -85,7 +85,8 @@
                 "version": "11.5.0",
                 "targetDir": "vendor/nodejs/nodejs",
                 "forceLocal": true
-            },
+            }
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
