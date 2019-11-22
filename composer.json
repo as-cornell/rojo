@@ -99,7 +99,7 @@
         ],
         "mouf": {
             "nodejs": {
-                "version": "11",
+                "version": "11"
             }
         }
     }
