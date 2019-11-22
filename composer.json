@@ -96,6 +96,13 @@
         },
         "preserve-paths": [
             "web/sites"
-        ]
+        ],
+        "mouf": {
+            "nodejs": {
+                "version": "11.15.0",
+                "targetDir": "vendor/nodejs/nodejs",
+                "forceLocal": false
+            }
+        }
     }
 }
