@@ -5,7 +5,7 @@ install: |
 # Fires after code is deployed. A "deployment" happens when you push to your
 # git repository or select a new branch or tag for your environment.
 deploy: |
-  echo "Running hooks in the $DEVSHOP_ENVIRONMENT environment for the $DEVSHOP_PROJECT..."
+  echo "Running deploy hooks in the $DEVSHOP_ENVIRONMENT environment for the $DEVSHOP_PROJECT..."
   drush {{alias}} updb -y
   npm install --prefix web/themes/custom/ppd
   npm rebuild node-sass --prefix web/themes/custom/ppd
