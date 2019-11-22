@@ -9,7 +9,8 @@ deploy: |
   drush {{alias}} updb -y
   npm install --prefix web/themes/custom/ppd
   npm rebuild node-sass --prefix web/themes/custom/ppd
-  npm start --prefix web/themes/custom/ppd
+  gulp build --prefix web/themes/custom/ppd
+  gulp pl --prefix web/themes/custom/ppd
   drush {{alias}} cr
   echo "Environment Variables:"
   env
