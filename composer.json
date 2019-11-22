@@ -100,8 +100,6 @@
         "mouf": {
             "nodejs": {
                 "version": "11",
-                "targetDir": "vendor/nodejs/nodejs",
-                "forceLocal": false
             }
         }
     }
