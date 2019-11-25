@@ -1,7 +1,6 @@
 # Fires after an environment is installed.
 install: |
 
-
 # Fires after code is deployed. A "deployment" happens when you push to your
 # git repository or select a new branch or tag for your environment.
 deploy: |
